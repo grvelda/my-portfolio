@@ -21,12 +21,11 @@ h2 {
     color: #fbd84e;
 }
 
-/* USED IN - NAVIGATION + LINKS IN NAV */
 h3 {
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    color: #fbd84e;
+    color: white
 }
 
 /* USED IN - FOOTERS*/
@@ -144,14 +143,19 @@ h6 {
     color: white;
 }
 
+
 .aboutMe-nav{ 
     padding-top: 1rem;
     background :rgb(33, 33, 33); 
 }
 
 .aboutMe-footer {
-    padding-top: 8rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 .aboutMe-title {
@@ -200,6 +204,13 @@ h6 {
 	animation-duration: 1s;
 }
 
+.programs-section {
+    animation-name: slowFadeThree;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
 .my-icon {
     padding-right: 1rem;
     float: left
@@ -210,7 +221,7 @@ h6 {
 } 
 
 /* ------------ PROJECTS PAGE CSS ------------ */
-h4 {
+h4 { /* CENTERED */  
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -284,6 +295,10 @@ img {
 .projects-footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    animation-name: slowFadeThree;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
 
@@ -370,14 +385,20 @@ img {
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    animation-name: slowFade;
+    animation-name: slowFadeTwo;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1s;
 }
 
 .contactMe-footer {
-    padding-top: 26rem;
+    padding-top: 24rem;
+    animation-name: slowFadeThree;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    
+
 }
 
 
