@@ -1,0 +1,445 @@
+body {
+    /* background-color: #171717; */
+    background-position-x: center;
+    background-image: url("../images/lights.webp");    
+}
+
+/* ------------ INDEX PAGE CSS ------------ */
+/* USED IN - INDEX TITLE */
+h1 {
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #fbd84e;
+}
+
+/* USED IN - INDEX TITLE + NAME */
+h2 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #fbd84e;
+}
+
+/* USED IN - NAVIGATION + LINKS IN NAV */
+h3 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #fbd84e;
+}
+
+/* USED IN - FOOTERS*/
+p {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #fbd84e;
+}
+
+.index-footer {
+    padding-top: 25rem;
+    padding-bottom: 2rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.index-title {
+    padding-top: 30rem;
+}
+
+.welcome-div {
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.name-div {
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.editor-div {
+    animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.index-links {
+    flex-wrap: wrap;
+    animation-name: slowFadeThree;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+/* DROPDOWN MENU */
+.nav-div {
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+li a {
+    text-decoration : none; 
+    color : #2d2f31;
+}
+
+nav {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    width : 186px; 
+    background: rgb(45, 45, 45);
+    margin : 0px auto; 
+}
+
+span {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding : 20px;
+    background :rgb(55, 55, 55); 
+    color : white;
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: block;
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  
+}
+
+.slide li {
+    padding: 10px;
+}
+
+#touch {
+    position: absolute; 
+    opacity: 0; 
+    height: 0px;
+}    
+
+#touch:checked + .slide {
+    height: 170px;
+} 
+
+/* ------------ ABOUT ME PAGE CSS ------------ */
+h6 {
+    padding-top: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+
+.aboutMe-nav{ 
+    padding-top: 1rem;
+    background :rgb(33, 33, 33); 
+}
+
+.aboutMe-footer {
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.aboutMe-title {
+    /* WITH ANIMATION */
+    padding-top: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.aboutMe-border {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: white; */
+    background :rgb(33, 33, 33); 
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding-top: 2rem;
+}
+
+.aboutMe-padding {
+    padding-top: 7rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.aboutMe-section {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.list-group-item {
+    background :rgb(33, 33, 33); 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.my-icon {
+    padding-right: 1rem;
+    float: left
+}
+
+.icon {
+    width: 70px;
+} 
+
+/* ------------ PROJECTS PAGE CSS ------------ */
+h4 {
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color:#fbd84e;
+}
+
+h5 {
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fbd84e;
+}
+
+img {
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.videoGifs-border {
+    background :rgb(33, 33, 33); 
+    padding-bottom: 5rem;
+    border-radius: 1rem;
+}
+
+.videoGifs-padding {
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.projects-title {
+    padding-top: 1rem;
+}
+
+.videoGifs-title{
+    padding-top: 2rem;
+}
+
+.videoGifs-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+.modelingGifs-title {
+    padding-top: 4rem;
+}
+
+.modelingGifs-padding {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.modelingGifs-border {
+    background :rgb(33, 33, 33); 
+    padding-bottom: 5rem;
+    border-radius: 1rem;
+}
+
+.modelingGifs-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.card-body {
+    background :rgb(67, 67, 67); 
+}
+
+.projects-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* OVERLAY IN PROJECT IMAGES  */
+.fullWrap {
+    position: relative;
+  }
+   
+  /* (B) RESPONSIVE IMAGE */
+  .fullWrap img { width: 100%; }
+   
+  /* (C) CAPTION */
+  .overlay {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    padding-top: 30%;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .overlay {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .fullWrap:hover .overlay {
+    visibility: visible; opacity: 1;
+  }
+
+
+/* ------------ HOMELANDER STILLS CSS ------------ */
+.HL-Title{
+    padding-top: 2rem;
+}
+
+.rowOne-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.HL-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* ------------ CONTACT ME PAGE CSS ------------ */
+.contactMe-title {
+    padding-top: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+
+}
+
+.contactMe-border {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: white; */
+    background :rgb(33, 33, 33); 
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding-top: 2rem;
+}
+
+.contactMe-padding {
+    padding-top: 15rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.contactMe-section {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.contactMe-footer {
+    padding-top: 26rem;
+}
+
+
+
+
+/* ------------ ANIMATION KEYFRAMES ------------ */
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slowFade {
+    0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}   
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes slowFadeTwo {
+    0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}  
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slowFadeThree {
+    0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}  
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
