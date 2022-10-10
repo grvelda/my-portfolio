@@ -150,7 +150,7 @@ h6 {
 }
 
 .aboutMe-footer {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     animation-name: slowFade;
 	animation-iteration-count: 1;
@@ -178,7 +178,7 @@ h6 {
 }
 
 .aboutMe-padding {
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
 }
